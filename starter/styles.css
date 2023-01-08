@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 60%;
+}
+
+/* main container area*/
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+/* use percentage for creating column area*/
+.col1 {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.col2 {
+    width: 75%;
+    margin-right: auto;
+    margin-top: 1%;
+}
+
+.col3 {
+    width: 19%;
+    
+}
+
+.spacebetween{
+    justify-content: space-around;
+}
+
+
+body { min-height: 100vh; }
+
+/* style the header */
+header {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(112, 138, 199);
+    /* make the gradient */
+    background-image: linear-gradient(90deg, rgb(140, 165, 223) 13%, rgb(29, 58, 121) 42%, rgb(1, 1, 69) 70%);
+}
+
+
+/* style the heading */
+.heading {
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+/* style the h1 */
+.h1 {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 8px auto;
+}
+/* style the h2 */
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 1%;
+}
+
+/* style the text area for city input */
+#city {
+    font-size: 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 2px solid black;
+    height: 50px;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    padding-left: 5px;
+}
+
+/* style the search button */
+#search-btn {
+    margin-bottom: 18px;
+    background-color:rgb(112, 138, 199);
+    color: white;
+}
+
+/* style the line break */
+hr {
+    border-top: 4px solid #859095
+}
+
+/* style the history buttons */
+.btn {
+    font-size: 20px;
+    width: 100%;
+    background-color: lightgrey;
+    color: black;
+    border: none;
+    border-radius: 6px;
+    margin-top: 14px;
+    padding: 12px 0;
+}
+
+/* style current weather container */
+#current-weather {
+    height: 35%;
+    border: 3px solid #859095;
+}
+
+/* style the list in weather container */
+ul {
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: bold;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 3%;
+}
+
+/* style the icon */
+#current-weather-icon {
+    filter: drop-shadow(0 0 9px grey);
+}
+
+/* style the h3 header */
+h3 {
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+}
+
+/* style the forecast */
+.card-body {
+    background-color:  rgb(29, 58, 121);
+    height: 220px;
+    padding-left: 8%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 6px;
+    border: 4px solid rgb(112, 138, 199);
+}
+
+p {
+    font-size: 19px;
+    color: white;
+}
+
+#five-day-header {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+/* Create another view for diffrent devices */
+
+/* Medium devices (768px and up) */
+@media (max-width: 768px) {
+    .col1 {
+        width: 100%;
+    }
+
+    .col2 {
+        width: 100%;
+    }
+
+    .col3 {
+        width: 100%;
+    }
+
+}
+
+/*  Small devices (630px and up) */
+@media (max-width: 630px) {
+
+    #current-weather {
+        width: 300px;
+    }
+
+}

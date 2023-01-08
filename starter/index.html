@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="styles.css" />
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /> -->
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+  <title>Weather Dashboard</title>
+</head>
+
+<body>
+ <!-- Header -->]
+ <header class="heading">Weather Dashboard</header>
+ <!--Main container for the rest part of page -->
+ <main id="container" class="container">
+     <div class="row">
+         <!-- search for a city -->
+         <div class="col1">
+             <div id="search-area">
+                 <h1 class="h1">Search for a City:</h1>
+                 <form id= "search-city">
+                     <!-- input any city here -->
+                     <input name='city' type="text" placeholder="London" id="city" autofocus="true"
+                         class="city-input" />
+                     <!-- press to create new city button -->
+                     <button type="submit" id="search-btn" class="btn">Search</button>
+                 </form>
+                 <!-- The line break in search area -->
+                 <hr>
+                 </hr>
+                 <!-- The local storage for history of searching cities -->
+                 <div id="search-history"></div>
+             </div>
+         </div>
+         <!-- Container for the current weather and 5 day forecast -->
+         <div class="col2">
+             <div id='five-day' class='row spacebetween'></div>
+         </div>
+     </div>
+ </main>
+
+  <!-- Moment.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>

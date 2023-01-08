@@ -23,8 +23,8 @@ This page can be used to find the weather for the current day and the next 5 day
 * The Weather Dashboard webpage includes a header.
 ![The Weather Dashboard webpage includes a header.](assets/header.png)
 * Also webpage includes area for seach, and history buttons.
-![Also webpage includes area for seach, and history buttons.]
-(assets/search.png)
+* 
+![Also webpage includes area for seach, and history buttons.](assets/search.png)
 * You can press on button and get weather result.
 ![You can press on button and get weather result.](assets/weather.png)
 

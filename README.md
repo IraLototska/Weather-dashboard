@@ -28,9 +28,9 @@ This page can be used to find the weather for the current day and the next 5 day
 * You can press on button and get weather result.
 ![You can press on button and get weather result.](assets/weather.png)
 
-```
-### View
 
+### View
+```
 The following image shows the web application's appearance and functionality:
 
 

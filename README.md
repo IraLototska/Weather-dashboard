@@ -28,8 +28,11 @@ This page can be used to find the weather for the current day and the next 5 day
 * You can press on button and get weather result.
 ![You can press on button and get weather result.](assets/weather.png)
 
+```
 ### View
 
 The following image shows the web application's appearance and functionality:
 
 ![The Weather dashboard includes a header, a searching input and history, buttons for getting result and card body with text, icons. ](assets/page.png)
+
+```
